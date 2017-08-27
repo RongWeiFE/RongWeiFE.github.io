@@ -3,10 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	
+	<link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-	<div><a href="chapter1/doc.html">课程一</a></div>
-	<div><a href="chapter2/doc.html">课程二</a></div>
-	<div><a href="chapter3/doc.html">课程三</a></div>
+<body ng-app="train" ng-controller="trainController">
+<div class="nav">
+	<ul>
+		<li class="item item1">
+				<a ui-sref="doc1" >课程一</a>
+		</li>
+		<li class="item item2">
+				<a ui-sref="doc2">课程二</a>
+		</li>
+		<li class="item item3">
+				<a ui-sref="doc3">课程三</a>
+		</li>
+	</ul>
+</div>
+<div class="body">
+	<div ui-view> </div>
+</div>
 </body>
+<script src="https://cdn.bootcss.com/angular.js/1.5.6/angular.js"></script>
+<script src="https://cdn.bootcss.com/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+<script src="js/index.js"></script>
 </html>
