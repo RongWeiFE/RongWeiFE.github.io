@@ -1,7 +1,6 @@
 # 课程1
 
-![](html.jpg)
-
+[![alt text](html.jpg)](http://skill-map.stuq.org/)
 ><a href="#html">1.HTML基本标签</a>
 ><a href="#css">2.基本css属性</a>
 ><a href="#js">3.简单的javascript</a>
