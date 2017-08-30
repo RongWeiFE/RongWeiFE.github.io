@@ -1,0 +1,31 @@
+{
+  "name": "train",
+  "version": "1.0.0",
+  "description": "something  unimportant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RongWeiFE/RongWeiFE.github.io.git"
+  },
+  "keywords": [
+    "train",
+    "base",
+    "javascript",
+    "css",
+    "html",
+    "html5",
+    "css3"
+  ],
+  "author": "RongWeiFE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RongWeiFE/RongWeiFE.github.io/issues"
+  },
+  "homepage": "https://github.com/RongWeiFE/RongWeiFE.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
